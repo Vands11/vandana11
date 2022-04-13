@@ -75,16 +75,68 @@ body{
     width:350px;
  
 } 
-button{
-height: 35px;
-width: 220px;
-background-color:#191e49;
-color: aliceblue;
- 
 
-}
 
 .input-group{
     padding: 12px;
+
+}
+
+
+.hig,li,a{
+ text-decoration: none;
+
+  list-style: none;
+}
+
+.col{
+     font-size:10px;
+}
+.text-warning{
+     font-size: 10px;
+}
+
+ .footer,p{
+      background-color: black;
+      color: aliceblue;
+      font-size: small;
+      font-family: 'Times New Roman', Times, serif;
+ }
+
+ .fld-risk-waring {
+    border: 2px solid seashell;
+}
+h5{
+
+    font-size: xx-large;
+    text-align: center;
+    color: orange;
+    margin-right: 150px;
+}
+.clear-fix{
+    border:1px solid orange;
+    height:90px;
+    width: 800px;
+    margin-left: 350px;
+    background-color:#FD6A02;
+    border-radius: 8px ;
+    padding-top:15px;
+    padding-left: 20px;
+
+}
+ input{
+height:60px;
+border-radius: 9px ;
+ }
+button {
+background-color: #191e49;
+color: white;
+width: 300px;
+height: 50px;
+border-radius: 15px;
+
+ }
+.clear-fix,button{
+    padding-right: 20PX;
 
 }
